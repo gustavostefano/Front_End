@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container_oferta{
+    background-color: #1CD1B0;
+    height: 38px;
+}
+
+.oferta{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.container_titulo{
+    background-color: #00669F;
+    height: 101px;
+    box-shadow: 0px 4px 5px 0px rgba(194,194,194,1);
+    
+    
+}
+.titulo{
+    padding-top: 28px;
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 28px;
+}
+
+main{
+    position: relative;
+}
+.card_batman{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    border-top-right-radius: 16px ;
+    border-top-left-radius: 16px;
+    height: 600px;
+    width: 374px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 5px 0px rgba(194,194,194,1);
+}
+
+.card_arlequina{
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    border-top-right-radius: 16px ;
+    border-top-left-radius: 16px;
+    height: 600px;
+    width: 374px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 5px 0px rgba(194,194,194,1);
+}
+
+.coracao{
+    position:absolute;
+    width: 35px;
+    left: 23px;
+    top: 18px;
+}
+
+.image{
+    width: 100%;
+}
+
+.avatar{
+    width: 135px;
+    height: 135px;
+    border-radius:50%;
+}
+
+.conteudo{
+    margin-top: -68px;
+    text-align: center;
+}
+
+.subtitle{
+    margin-top: 23px;
+    font-size: 38px; 
+    font-weight: 400;
+}
+
+.descricao{
+    margin: 0px 30px;
+    margin-top: 30px;
+    font: size 16px;
+    font-weight: 400;
+    
+}
+
+.botao{
+    margin-top: 24px;
+    width: 155px;
+    height: 55px;
+    background-color: #00669F;
+    color: white;
+    font-size: 15px;
+
+}
+
+footer{
+    margin-top: 850px;
+    height: 51px;
+    background-color:#00669F ;
+    padding-top: 15px;
+}
+
+footer p{
+    color:white;
+    font-size: 15px;
+    
+}

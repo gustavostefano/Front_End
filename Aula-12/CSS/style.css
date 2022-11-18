@@ -93,10 +93,13 @@ p{
     height: 190px;
     justify-content: center;
     align-items: center;
+    color:white;
+    font-size: 18px;
+    /* font-weight: 400; */
     
 }
 
 .rodape h3{
-  flex-wrap: wrap;
+  font-weight: 400;
   
 }

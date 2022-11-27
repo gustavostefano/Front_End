@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+
+.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(116,177,205, 0.5);
+    /* opacity: 0.5; */
+    height: 250px;
+    width: 100vw;
+    justify-content: space-between;
+    font-style: none;
+        
+}
+
+.imagem_logo{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    margin-left: 90px;
+    margin-top: 20px;
+
+}
+.BSB{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.lista_de_navegacao{
+    display: flex;
+    list-style: none;
+    font-size: 40px;
+    font-weight: 400;
+    justify-content: space-between;
+    margin: 65px 40px;
+    box-sizing: border-box;
+  
+      
+}
+
+.lista_de_navegacao li{
+    padding: 20px;
+   
+}
+
+.lista_de_navegacao li a {
+    text-decoration: none;
+}
+
+.imagembanner{
+    position: absolute;
+    /* display: flex; */
+    width: 100vw;
+    height:700px;
+    flex-wrap: wrap;
+    background-image: url("/Front_End_I/Checkpoint/Img/vista_central_brasilia.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    opacity: 0.5;
+    /* text-align: center; */
+    
+    
+}
+
+.texto_banner{
+    /* position:relative; */
+    font-weight: 700;
+    font-size: 50px;
+    word-wrap: break-word;
+    /* padding: px; */
+    /* margin-top: 30px; */
+    color:black;
+    z-index: 2;
+    /* text-align: center; */
+
+}
+
+.texto_banner h1{
+    padding-top: 50px;
+    padding-left: 20px;
+    font-weight: 450;
+}
+
+.texto_banner p{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-weight: 400;
+}
+
+/* #curiosidades{
+    /* position:absolute;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 170px;
+    /* font-weight: 100; */
+
+    /* margin-left: 20px; */
+    /* justify-content: space-around; */
+    /* height: 120px;
+    width: 100px;
+} */
+
+.titulo_curiosidades{
+    margin-top: 250px;
+    display: flex;
+    font-size: 60px;
+    /* margin-left: 700px; */
+    text-align: center;   
+    justify-content: center;
+    justify-items: center;  
+}
+
+/* .curiosidades{
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 170px;
+} */
+
+.cards{
+    /* position: absolute; */
+    width:100vw;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* height: 100vh; */
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-content: center; */
+   }
+
+.card_image{
+    
+    padding: 13px 10px;
+    width: 100%;
+    height:50%;
+    object-fit: cover;
+}
+
+
+.Card_Curiosidade_1{
+    display: block;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    width: 500px;
+    height: 950px;
+    background-color: rgb(245,191,85, 0.5) ;
+    margin-top:70px;
+    /* margin-left: 60px; */
+    border-radius: 10px;
+}
+
+.Card_Curiosidade_2{
+    display: block;
+    /* justify-content: center; */
+    width: 500px;
+    height: 950px;
+    background-color:rgb(116,177,205, 0.4);
+    margin-top:70px;
+    /* margin-left: 60px; */
+    border-radius: 10px;
+}
+
+.Card_Curiosidade_3{
+    display: block;
+    justify-content: center;
+    width: 500px;
+    height: 950px;
+    background-color:rgb(109,110,22, 0.5);
+    margin-top:70px;
+    /* margin-left: 60px; */
+    border-radius: 10px;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 60px;
+}
+
+.descricao{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* .principal{
+    position: relative;
+} */
+
+#video{
+    margin-top: 100px;
+    height: 600px;
+    /* align-items: center; */
+    text-align: center;
+}
+
+#video2 h3{
+    font-size: 80px;
+    margin-bottom: 60px;
+    width: 100vw;
+    height: fit-content;
+}
+
+.rodape{
+    display: relative;
+    /* text-align: center; */
+    height: 150px;
+    margin-top: 700px;
+    /* background-color: aqua; */
+}
+
+.container_rodape{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* text-align: center; */
+    /* margin-left: 200px; */
+    padding-top: 20px;
+    background-color:rgb(203,218,213,0.2);
+    
+    
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+   .embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   }
+   
+
+/* .principal{
+    background-color: yellow;
+} */
+
+
+
+
+
+
+@media (max-width: 426px)
+{
+    .cabecalho{
+        display: relative;
+        flex-wrap: wrap;
+        background-color: rgb(116,177,205, 0.5);
+         width: 100vw;
+        justify-content:center;
+        font-style: none;}
+
+    .lista_de_navegacao{
+            /* display: flex; */
+            flex-wrap: wrap;
+            list-style: none;
+            font-size: 35px;
+            font-weight: 400;
+            justify-content: center;
+           /* margin: 65px 40px; */
+            /* box-sizing: border-box; */
+        }  
+
+    .imagembanner{display:none;}  
+        
+    .texto_banner h1{display:none; }
+
+    .texto_banner p{display:none}
+
+    nav{
+        background-color: rgb(116,177,205, 0.5);;
+    }
+
+    .titulo_curiosidades{
+        font-size:40px;
+        padding-top: 100px; ;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cards p{
+        font-size: 28px;
+    }
+
+   
+   
+/* #video2{
+    position:relative;
+}
+
+footer{
+    padding-top: -1000px;
+ } */
+    }          
+    

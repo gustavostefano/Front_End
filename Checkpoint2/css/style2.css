@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    
+    z-index: 2;
+}
+
+nav{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 80px;
+    position:sticky;
+    top:0;
+    background: white;
+   
+}
+
+nav ul{
+    display: flex;
+    gap: 24px;
+    
+    
+}
+
+nav ul li{
+    font-weight: 400;
+    font-size: 18px;
+    list-style: none;
+    margin-right: 80px;
+    cursor: pointer;
+    /* cursor: default;
+    text-decoration: none;
+    */
+}
+
+nav ul li:hover{
+    font-size: 25px;
+    transition: 0.3s;
+     /* Align-items: center;  */
+}
+
+nav ul li span{
+    color: #E51B3E;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* nav ul li a:visited{
+    text-decoration: none;
+} */
+
+nav img{
+    /* height: 50px; */
+    /* width: 167px; */
+    padding: 15px 61px 0px;
+}
+
+
+.principal{
+    diplay:flex;
+    background-image: url(../Imgs/Desktop1/bg-main.png);
+    width: 100vw;
+    height: 681px;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+/* 
+.principal h1{
+    color:#E51B3E;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 330px;
+    margin-left: 325px;
+    cursor: default;
+   
+}
+
+.principal h2{
+    color:white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 325px;
+    cursor: default;
+} */
+
+.contentbanner{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.modal{
+    margin-top: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    width: 653px;
+    height: 629px;
+    background: white;
+    border-radius: 12px;
+    flex-direction: column;
+} 
+
+.logo-dh{
+    /* display: flex; */
+    width:374px;
+    height:112px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 140px;
+}
+
+.closewindow{
+    display:flex;
+justify-content: flex-end;
+padding: 16px;
+}
+
+.entrar{
+    border-radius: 12px;
+    background: #33BB69;
+    color:white;
+    width:543px;
+    height: 60px;
+    border: none;
+    margin-top: 122px;
+    margin-left: 50px;
+    font-size: 24px;
+       
+}
+
+
+input{
+    margin-left: 50px;
+    width: 543px;
+    height:60px;
+    border-radius: 12px;
+    color:#A4A4A4;
+}
+
+Label{
+    margin-left: 50px;
+    font-size: 24px;
+}
